@@ -1,7 +1,7 @@
 
 const Fees = () => {
   return (
-    <div>Fees</div>
+    <div>this is fees Fees</div>
   )
 }
 
