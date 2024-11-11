@@ -1,18 +1,19 @@
 import logo from "/assets/images/logo.png";
 import userProfileImg from "/assets/images/avatar-4.jpg";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
       <nav className="navbar header-navbar pcoded-header">
         <div className="navbar-wrapper">
           <div className="navbar-logo">
-            <a
+            <Link
+              to = "dashboard"
               className="mobile-menu waves-effect waves-light"
               id="mobile-collapse"
-              href="#!"
             >
               <i className="ti-menu" />
-            </a>
+            </Link>
             <div className="mobile-search waves-effect waves-light">
               <div className="header-search">
                 <div className="main-search morphsearch-search">
@@ -32,9 +33,9 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <a href="">
+            <Link to="/Dashboard">
               <img className="img-fluid" src={logo} alt="Theme-Logo" />
-            </a>
+            </Link>
             <a className="mobile-options waves-effect waves-light">
               <i className="ti-more" />
             </a>

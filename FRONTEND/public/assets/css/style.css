@@ -5290,7 +5290,7 @@ table tbody .border-bottom-info td {
 
 .pcoded .pcoded-container {
 	position: relative;
-	background: #f3f3f3;
+	/* background: #f3f3f3; */
 	-webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
 	box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
 }
